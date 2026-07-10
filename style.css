@@ -49,6 +49,41 @@ button {
 button:hover {
     color: #ece3e3;
 }
-
-
 /* nav style end */
+
+/* hero section start */
+.hero {
+    background-image: url(./assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    position: relative;
+}
+
+.hero-overlay {
+    background: rgba(0,0,0,.55);
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    margin: 20px;
+}
+
+.hero-content p {
+    font-size: 15px;
+    margin-bottom: 220px;
+}
