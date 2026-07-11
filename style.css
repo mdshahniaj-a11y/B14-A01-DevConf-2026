@@ -117,7 +117,7 @@ button:hover {
     border: ridge 1px #f5ebeb;
 }
 
-.card image {
+.card img {
     width: 100%;
     height: 280px;
     object-fit: cover;
@@ -240,3 +240,43 @@ button:hover {
 .secure-card ul {
     padding-left: 8px;
 }
+/* secure section end */
+
+/* why join devConf section start */
+.why-join-parent {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.why-join-header {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 23px;
+    color: #000102;
+}
+
+.why-join-cards-parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 20px;
+}
+
+.why-join-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+.why-join-card img {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+
+.why-join-card h3 {
+    font-size: 25px;
+}
+/* why join devConf section end */
