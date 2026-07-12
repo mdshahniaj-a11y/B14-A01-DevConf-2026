@@ -203,6 +203,7 @@ button:hover {
     color: #FFFFFF;
     background-color: #2563EB;
     border: none;
+    margin-top: 33px;
 }
 
 .pro {
@@ -231,6 +232,7 @@ button:hover {
 
 .team button {
     color: #0D1B2A;
+    margin-top: 33px;
 }
 
 .secure-card ul li::marker {
